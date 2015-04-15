@@ -11,12 +11,12 @@
 # Change settings here to control how Vlad sets up your box.
 
 # Webserver settings
-  webserver_hostname: 'gaggle.vm'
+  webserver_hostname: 'yoursite.vm'
   webserver_hostname_alias: 'www.{{ webserver_hostname }}'
 
 # Vagrantfile configuration
   boxipaddress: "192.168.100.100"
-  boxname: "gaggle"
+  boxname: "yoursite"
   host_synced_folder: "../docroot"
 
 # Install components:
@@ -99,10 +99,10 @@
 # MySQL Settings
   mysql_port: 3306
   mysql_root_password: root
-  server_hostname: gaggle
-  dbname: gaggle
-  dbuser: gaggle
-  dbpass: gaggle
+  server_hostname: yoursite
+  dbname: yoursite
+  dbuser: yoursiteuser
+  dbpass: yoursitepass
 
 # MySQL my.cnf settings
   mysql_max_allowed_packet: 128M
